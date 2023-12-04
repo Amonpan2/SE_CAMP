@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./mystyles.css"/>
+    <style>
+        h1 {
+            color: rgb(51, 100, 5) !important;
+        }
+        h2 {
+            color: rgb(20, 202, 20);
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500;700&display=swap');
+    </style>            
+    <!-- inter -->
 </head>
 <body>
-    <h1>workshop #HTML-FORM </h1>
+    <h1>workshop #HTML-FORM </h1> <!-- comment HTML-->
     <h2><i>&nbsp;List</i></h2>
+    <ul>
     <li>A</li>
     <li>B</li>
     <li>C</li>
+    </ul>
+    
     <ol type="a"> 
     <li>A</li>
     <li>B</li>
     <li>C</li>
     </ol>
+    <ol type="I">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ol>
     <dl>
         <dt> Group A</dt>
-        <dd>A</dd>
+        
     </dl>
-    //รูป
+    
     <img width="128px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJPNCV9LKMQQu4OTMphHowfFFyLL77B_SB3Q&usqp=CAU" alt="">
-    <h1>Table </h1> //ตาราง
+    <h2>Table </h2> //ตาราง
     <table width = "10%" border="1">
         <thead>
             <tr>
@@ -45,7 +64,7 @@
     </table>
     <form>
         <textarea name="name" id="" cols="30" rows="2"></textarea>
-    </form>//ใส่ชื่อในการบ้าน
+    </form>
     <form action="#">
         <input type="text"/> 
         <input type="date">
@@ -75,6 +94,7 @@
         </td>
     </tr>
     <br>
+    <h2 class="myfont coRed " id="myP" >Text area</h2>
     <tr>
         <td>
             text area
@@ -85,6 +105,7 @@
         </td>
     </tr>
     <br>
+    <h2 id="myP">Select</h2>
     <tr>
         <td> select</td> 
         <td>
@@ -96,6 +117,7 @@
         </td>
     </tr>
     <br>
+    <h2>File</h2>
     <tr>
         <td>File</td>
         <td><input type="file"></td>

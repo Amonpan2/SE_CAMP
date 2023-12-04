@@ -1,0 +1,52 @@
+/*
+    comment CSS
+
+*/
+* {
+    
+    font-family: 'Sarabun', sans-serif;
+    font-size: 0.5cm;    
+}
+
+.myfont {
+    font-family: fantasy;
+    color: rgb(30, 255, 0);
+}
+.coRed {
+    color: hsl(9, 100%, 50%);
+    color: #ff22ff;
+    color: rgb(52, 189, 52);
+     
+}
+#myP {
+    font-size: 1cm;
+    
+
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    color: rgb(46, 23, 133);
+    text-align: center;
+    border-width:  10px;
+    border-color:  blue;
+    border-style: double;
+    padding-top: 50%;
+    margin: 50px;
+    
+}
+.box:hover {
+    background-color: aquamarine;
+}
+/*a{
+    color: rgb(248, 7, 148);
+}*/
+a:link {
+    color: rgb(0, 0, 0);
+}
+.box2 {
+}
+.top {
+    text-align: center;
+}
