@@ -1,0 +1,66 @@
+/*
+    comment CSS
+    sth
+
+*/
+* {
+    
+    font-family: 'Sarabun', sans-serif;
+    font-size: 0.5cm;    
+    background-color: rgb(220, 245, 238);
+}
+
+.myfont {
+    font-family: fantasy;
+    color: rgb(30, 255, 0);
+}
+.coRed {
+    color: hsl(9, 100%, 50%);
+    color: #ff22ff;
+    color: rgb(52, 189, 52);
+     
+}
+#myP {
+    font-size: 1cm;
+    
+
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    color: rgb(46, 23, 133);
+    text-align: center;
+    border-width:  20px dashed rgb(26, 236, 177);
+    border-color:  skyblue;
+    border-style: double;
+    border-style:  outset;
+    padding-top: 10px;
+    margin: 50px 25px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:25px; 
+    
+}
+.box:hover {
+    background-color: rgb(121, 251, 238);
+    box-shadow: 30px 30px 20px rgba(3, 99, 80, 0.2);
+    border-color:  rgb(121, 251, 238);
+
+}
+h1 {
+    text-align: center;
+}
+/*a{
+    color: rgb(248, 7, 148);
+}*/
+a:link {
+    color: rgb(0, 0, 0);
+}
+.box2 {
+}
+.top {
+    text-align: center;
+}
