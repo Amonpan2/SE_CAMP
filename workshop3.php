@@ -5,17 +5,60 @@
 </head>
 
 <body>
-    <?php $multi_x = 2; ?>
+    <?php 
+    $multi_x = 2;
+    $end = 1;
+    ?>
     <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
-
-    <table>
+    <?php 
+//     for($i=1; $i <= 24; $i++){
+  //      print_r($i . "<br>");
+//
+  //   }
+    
+    ?>
+    <table >
         <tbody>
+            
             <tr>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td>=</td>
-                <td></td>
+                <td><?php 
+                for($i=1; $i <= 24; $i++){
+                    print_r($multi_x . "<br>");
+            
+                 }
+                 //print_r($multi_x . "<br>");
+                 ?></td>
+                <td>
+                <?php 
+                for($i=1 ; $i <=24 ; $i++){
+                    print_r(" x "."<br>");
+                }
+                ?>    
+                
+                
+                </td>
+                <td><?php
+                for($i=1 ; $i <=24 ; $i++){
+                    print_r($i ."<br>");
+                }
+                //print_r(1)
+                ?></td>
+                <td>
+                <?php 
+                for($i=1 ; $i <=24 ; $i++){
+                    print_r(" = "."<br>");
+                }
+                ?>    
+                
+                </td>
+                <td><?php 
+                for($i=1 ; $i <=24 ; $i++){
+                    print_r($multi_x*$i."<br>");
+                }
+                
+                //print_r($multi_x*$end)
+                
+                ?></td>
             </tr>
         </tbody>
     </table>
