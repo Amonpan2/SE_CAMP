@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\HttP\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome'); //welcome.blade.php
+});
+Route::get('/my-route', function(){
+    // $data[''] = "";
+    $data = ['var_a' => 'Hello World'];
+    $data['var_b'] = "Laravel";
+    //echo view('myroute');
+    echo view('myfolder.mypage',$data); //เรียก viwe จาก folder
+
+});
+Route::post('/my-route', function(Request $req){
+    //แตกecho $req->input('/myinput');
+    $data['myinput'] = $req->input('myinput');
+    return view('myroute',$data);
 });
