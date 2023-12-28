@@ -26,7 +26,12 @@ Route::get('/my-route', function(){
 
 });
 Route::post('/my-route', function(Request $req){
-    //แตกecho $req->input('/myinput');
     $data['myinput'] = $req->input('myinput');
-    return view('myroute',$data);
+    return view('myroute', ['myinput' => $req->input('myinput')]);
+
+
 });
+ //$data['myinput'] = $req->input('myinput');
+    //echo $req->input('myinput');
+    //return view('myroute',$data);
+//แตกecho $req->input('/myinput');

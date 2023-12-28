@@ -8,7 +8,7 @@
         <h1>{{$var_a }} {{$var_b}}</h1>
         <form method="post" action="/my-route">
             @csrf
-            <input type="text" name = "myinput">
+            <input type="text" name = "myinput" />
             <button type="submit">Submit</button>
         </form>
     </body>
