@@ -26,8 +26,10 @@ Route::get('/my-route', function(){
 
 });
 Route::post('/my-route', function(Request $req){
-    $data['myinput'] = $req->input('myinput');
-    return view('myroute', ['myinput' => $req->input('myinput')]);
+    $data['input'] = $req->input('input');
+    return view('myroute', $data);
+    //$data['input'] = $req->input('input');
+    //return view('myroute', ['input' => $req->input('input')]);
 
 
 });
