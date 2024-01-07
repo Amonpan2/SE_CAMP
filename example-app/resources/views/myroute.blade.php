@@ -3,27 +3,22 @@
         <meta charset = "utf-8"/>
     </head>
     <body>
-        <h1>My Route Page</h1>
-        <?php
-    $multi_x = 2;
-    ?>
+
+
     <div class= "img">
         <h1 class= "text"><pre>
 
 
 ตารางสูตรคูณแม่ <?php echo $input ?></pre> </h1>
         <div class="table">
-
                 <table >
                     <tbody>
-
                         <tr>
                             <td ><?php
                             for($i=1; $i <= 24; $i++){
                                 print_r($input. "<br>");
 
                             }
-                            //print_r($multi_x . "<br>");
                             ?></td>
                             <td>
                             <?php
@@ -38,7 +33,6 @@
                             for($i=1 ; $i <=24 ; $i++){
                                 print_r($i ."<br>");
                             }
-                            //print_r(1)
                             ?></td>
                             <td>
                             <?php
@@ -52,9 +46,6 @@
                             for($i=1 ; $i <=24 ; $i++){
                                 print_r("  ". $input*$i."<br>");
                             }
-
-                            //print_r($multi_x*$end)
-
                             ?></td>
                         </tr>
                     </tbody>
@@ -68,13 +59,31 @@
 
 
     <style>
-        table {
+        .img {
+            width: 400px;
+            height: 500px;
+            position: absolute;
+            top: 30%;
+            left: 40%;
+            margin-top: -100px;
+            margin-left: -100px;
+
+            background-color: transparent;
+            box-shadow: 0 0 10px rgba(26, 26, 26, 0.493);
+
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            border-style:  outset;
+
+
+        }
+        .img .table table{
             width: 300px;
             height: 360px;
             scroll-snap-type: y mandatory;
             overflow-y: scroll;
             /*background-color : lightpink; */
-            font-size : 0.68cm;
+            font-size : 0.65cm;
             font-family: 'Sarabun', sans-serif;
 
             margin: auto;
@@ -82,58 +91,31 @@
             justify-content: center;
             /*border-radius:25px; */
             /*border : 2px solid white; */
+            margin-top: 90px;
+            margin-left: 50px;
 
 
 
         }
-        pre {
-            font-family: 'Sarabun', sans-serif;
-        }
-        h1 {
+        .img pre {
+            position: absolute;
+            top: 14%;
+            left: 50%;
+            margin-top: -120px;
+            margin-left: -140px;
             text-align: center;
-
             font-family: 'Sarabun', sans-serif;
 
         }
-        *{
-            /*background-color : hotpink; */
-            top : -5px;
-            margin : 0;
-            padding : 0;
 
+        body {
 
-
-
-        }
-        td{
-            /*background-color : lightpink;*/
-        }
-        tbody {
-            /*background-color : lightpink;*/
-        }
-        .img {
-            position: relative;
-            background-image : url(https://scontent.fbkk30-1.fna.fbcdn.net/v/t39.30808-6/412826148_1730021717496036_6676043318584386499_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Vzc4WeFZLuMAX-K4426&_nc_ht=scontent.fbkk30-1.fna&oh=00_AfDaFkMj33Yx6XMwCSxaKRA6negzoW3YDq3-geku9bo8JQ&oe=658C38DC);
-            background-position : center;
-            background-size : cover;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
-            height: 100vh;
-            display : grid;
-
-            /*align-content : center;*/
-
-
+            background-image: url('https://scontent.fbkk30-1.fna.fbcdn.net/v/t39.30808-6/417112087_1738840879947453_2965509460721317857_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeEUJLUl_GZgo72Hsrk_NwtQFHbry6ve7XQUduvLq97tdL5xnZGrR3HsrsHL-_2cT2HpFcNZA94rIsVk00nffjOH&_nc_ohc=zVXnpos-gtsAX_ow2rn&_nc_ht=scontent.fbkk30-1.fna&oh=00_AfCJlVE1vWgiDKgGIiBuw395ij0ychVsVQi6RoB2b4mYNg&oe=659EA2A9');
+            background-size: cover;
+            background-position: center;
         }
 
     </style>
-
-        <h1> {{ $input }}  </h1>
-
-
-
     </body>
 
 </html>

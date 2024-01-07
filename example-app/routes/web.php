@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Illuminate\HttP\Request;
+use Illuminate\Http\Request;
+use App\Http\Controllers\MyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,20 +15,22 @@ use Illuminate\HttP\Request;
 |
 */
 
+Route::get('/my-controller' , [MyController::Class, 'index']);
+
+
+
 Route::get('/', function () {
     return view('welcome'); //welcome.blade.php
 });
 Route::get('/my-route', function(){
-    // $data[''] = "";
-    $data = ['var_a' => 'Hello World'];
-    $data['var_b'] = "Laravel";
-    //echo view('myroute');
-    echo view('myfolder.mypage',$data); //เรียก viwe จาก folder
+    $data = ['var_a' => 'Multiplication Table'];
+    return view('myfolder.mypage',$data); //เรียก viwe จาก folder
 
 });
 Route::post('/my-route', function(Request $req){
     $data['input'] = $req->input('input');
     return view('myroute', $data);
+
     //$data['input'] = $req->input('input');
     //return view('myroute', ['input' => $req->input('input')]);
 
