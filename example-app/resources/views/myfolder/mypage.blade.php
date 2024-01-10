@@ -6,7 +6,7 @@
     <body>
         <div class="background">
             <h1>{{$var_a }} </h1>
-            <form method="post" action="/my-route">
+            <form method="post" action="/my-controller3">
             @csrf
                 <input type="text" name="input" id = "input" />
                 <i class='bx bxs-calculator'></i>
