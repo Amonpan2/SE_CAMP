@@ -181,11 +181,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="{{ url('assets/dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2"
+                        <img src="{{ url('https://scontent.fbkk30-1.fna.fbcdn.net/v/t39.30808-6/400683942_1705914776573397_4783157773693963053_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=yZsk5CUjYAQAX9wEekm&_nc_ht=scontent.fbkk30-1.fna&oh=00_AfAEzOj389SMXs4FUl0rQjhew36IoHpRXMXDig7Alxc6xg&oe=65AACB00') }}" class="img-circle elevation-2"
                             alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">Amonpan Noicharoen</a>
                     </div>
                 </div>
 
@@ -212,7 +212,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Starter Pages
+                                    WorkShop
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -267,11 +267,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <footer class="main-footer">
             <!-- To the right -->
             <div class="float-right d-none d-sm-inline">
-                Anything you want
+                 <!-- Anything you want-->
             </div>
             <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
-            reserved.
+            <!--<strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
+            reserved.-->
         </footer>
     </div>
     <!-- ./wrapper -->

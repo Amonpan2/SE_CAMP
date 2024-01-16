@@ -13,7 +13,7 @@ class MyController extends Controller
     }
     public function index(){
         $data = ['var_a' => 'Multiplication Table'];
-        return view('home'); //เรียก viwe จาก folder
+        return view('home'); //เรียก viwe จาก folder //เรียก viwe 0kd
         //return view('welcome');
         //echo $this->myvar;
     }
