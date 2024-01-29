@@ -178,7 +178,7 @@
         }
 
     </style>
-    
+
 
     <!-- /.content -->
 @endsection
