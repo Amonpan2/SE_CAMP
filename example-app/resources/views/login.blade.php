@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +21,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="../../index2.html"><b>Admin</b>LTE</a>
+            <a href="../../index2.html"><b>SE</b>camp</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
@@ -85,6 +86,11 @@
     </div>
     <!-- /.login-box -->
 
+    <style>
+        button.btn{
+        }
+        
+    </style>
     <!-- jQuery -->
     <script src="{{ url('assets/plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4 -->

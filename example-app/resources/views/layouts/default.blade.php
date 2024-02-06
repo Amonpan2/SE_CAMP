@@ -244,6 +244,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
+            <div class = "btn_logout">
+                <a href="/logout" class="text-center"><button type="submit" class="btn_logout">Logout</button></a>
+
+            </div>
             <!-- /.sidebar -->
         </aside>
 
@@ -277,8 +281,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS -->
-
+    <style>
+        button.btn_logout{
+            width: 100%;
+            background-color: red;
+            height: 50px;
+            border-radius: 10px;
+        }
+    </style>
     <!-- jQuery -->
+
     <script src="{{ url('assets/plugins/jquery/jquery.min.js') }}"></script>
     <!-- Bootstrap 4 -->
     <script src="{{ url('assets/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
